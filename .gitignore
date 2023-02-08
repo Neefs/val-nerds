@@ -1,7 +1,0 @@
-*.code_workspace
-/.venv
-config.json
-*.pyc
-*.db
-/data
-.vscode/
