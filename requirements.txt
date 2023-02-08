@@ -1,0 +1,5 @@
+git+https://github.com/Rapptz/discord.py
+git+https://github.com/PythonistaGuild/mystbin.py.git
+aiosqlite
+black
+jishaku
