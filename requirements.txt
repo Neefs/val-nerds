@@ -1,0 +1,4 @@
+discord.py[speed]
+python-dotenv
+asyncpg
+jishaku

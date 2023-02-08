@@ -1,0 +1,4 @@
+*.code_workspace
+/.venv
+*.pyc
+/tests
