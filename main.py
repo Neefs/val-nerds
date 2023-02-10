@@ -6,7 +6,7 @@ import sys
 import discord
 from dotenv import load_dotenv
 
-from objects.bot import Placeholder
+from objects.bot import Val
 from objects.command_tree import CommandTree
 from objects.discord_changes import Embed, View
 
@@ -33,7 +33,7 @@ handler.setFormatter(
 )
 logger.addHandler(handler)
 
-bot = Placeholder(intents=discord.Intents.all(), owner_id=723386696007155763, tree_cls=CommandTree)
+bot = Val(intents=discord.Intents.all(), owner_id=723386696007155763, tree_cls=CommandTree)
 discord.Embed = Embed
 discord.Embed.bot = bot
 discord.ui.View = View

@@ -1,2 +1,3 @@
-# Bot-Template
-A template I use for most of my bots.
+# Val-nerds
+
+A bot my discord server.

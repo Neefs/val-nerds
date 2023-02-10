@@ -8,7 +8,7 @@ import jishaku
 import aiohttp
 import traceback as tb
 
-class Placeholder(commands.AutoShardedBot):
+class Val(commands.AutoShardedBot):
     def __init__(self, **options):
         self.prefix = options.get("prefix", ".")
         super().__init__(commands.when_mentioned_or(self.prefix), **options)
